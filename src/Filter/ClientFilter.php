@@ -42,7 +42,7 @@ class ClientFilter
             );
         }
 
-        return strtolower($regionId);
+        return $regionId;
     }
 
     /**
